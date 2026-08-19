@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advice Energy — Comparateur d'énergie pour professionnels</title>
+<meta name="description" content="Advice Energy accompagne les entreprises depuis 2014 dans le choix du contrat d'électricité et de gaz le plus adapté à leur activité. Audit gratuit, sans engagement.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Fraunces:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Aller au contenu</a>
+
+<!-- ============================= -->
+<!-- TOPBAR — CONTACT RAPIDE       -->
+<!-- ============================= -->
+  <div class="topbar">
+    <div class="topbar__inner">
+      <a href="https://wa.me/33762331210?text=Bonjour%20Advice%20Energy%2C%20j%27ai%20une%20question." class="topbar__link" target="_blank" rel="noopener">
+        <span class="topbar__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8.5 9.3c.2-.5.5-.6.8-.6h.5c.2 0 .4.1.5.4l.6 1.3c.1.3 0 .5-.1.7l-.5.5c-.1.2-.1.3 0 .5.5.9 1.4 1.8 2.3 2.3.2.1.3.1.5 0l.5-.5c.2-.2.4-.2.7-.1l1.3.6c.3.1.4.3.4.5v.5c0 .3-.1.6-.5.8-.9.4-2.2.2-4-1-1.4-.9-2.7-2.2-3.6-3.6-1.1-1.7-1.3-2.9-1-3.9z" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        WhatsApp
+      </a>
+      <a href="mailto:contacts@advice-assistance-energy.fr" class="topbar__link">
+        <span class="topbar__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        Email
+      </a>
+    </div>
+  </div>
+
+  <!-- ============================= -->
+  <!-- HEADER STICKY                 -->
+  <!-- ============================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="site-header__inner">
+
+      <a href="#accueil" class="site-header__logo" aria-label="Advice Energy — Accueil">
+        <img src="assets/images/Advice_Energy_Logo.png" alt="Advice Energy" class="site-header__logo-img">
+      </a>
+
+      <nav class="site-header__nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#accueil" class="nav-link is-active" data-i18n="nav.accueil">Accueil</a></li>
+          <li><a href="#solutions" class="nav-link" data-i18n="nav.solutions">Nos solutions</a></li>
+          <li><a href="#comparateur" class="nav-link" data-i18n="nav.comparateur">Comparateur</a></li>
+          <li><a href="#actualites" class="nav-link" data-i18n="nav.marche">Marché de l'énergie</a></li>
+          <li><a href="#apropos" class="nav-link" data-i18n="nav.apropos">À propos</a></li>
+          <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-header__actions">
+        <a href="tel:0762331210" class="site-header__phone">
+          <span class="site-header__phone-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <span class="site-header__phone-number">07 62 33 12 10</span>
+        </a>
+
+        <a href="https://wa.me/33762331210?text=Bonjour%20Advice%20Energy%2C%20je%20souhaite%20obtenir%20un%20devis%20gratuit%20pour%20mon%20entreprise." class="btn btn--cta" target="_blank" rel="noopener" data-i18n="header.cta">Obtenir un devis gratuit</a>
+
+        <div class="lang-switch" role="group" aria-label="Choisir la langue / Choose language">
+          <button type="button" class="lang-switch__btn is-active" data-lang="fr">FR</button>
+          <button type="button" class="lang-switch__btn" data-lang="en">EN</button>
+        </div>
+
+        <button class="site-header__burger" id="burgerBtn" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="site-header__mobile" id="mobileMenu">
+      <ul class="site-header__mobile-nav">
+        <li><a href="#accueil" data-i18n="nav.accueil">Accueil</a></li>
+        <li><a href="#solutions" data-i18n="nav.solutions">Nos solutions</a></li>
+        <li><a href="#comparateur" data-i18n="nav.comparateur">Comparateur</a></li>
+      <li><a href="#actualites" data-i18n="nav.marche">Marché de l'énergie</a></li>
+      <li><a href="#apropos" data-i18n="nav.apropos">À propos</a></li>
+      <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="lang-switch lang-switch--mobile" role="group" aria-label="Choisir la langue / Choose language">
+      <button type="button" class="lang-switch__btn is-active" data-lang="fr">FR</button>
+      <button type="button" class="lang-switch__btn" data-lang="en">EN</button>
+    </div>
+    <a href="tel:0762331210" class="site-header__mobile-phone">
+      <span class="site-header__phone-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </span>
+      <strong>07 62 33 12 10</strong>
+    </a>
+    <a href="https://wa.me/33762331210?text=Bonjour%20Advice%20Energy%2C%20je%20souhaite%20obtenir%20un%20devis%20gratuit%20pour%20mon%20entreprise." class="btn btn--cta btn--block" target="_blank" rel="noopener" data-i18n="header.cta">Obtenir un devis gratuit</a>
+    </div>
+  </header>
+
+<main id="main">
+
+  <!-- ============================= -->
+  <!-- 2) HERO                       -->
+  <!-- ============================= -->
+  <section class="hero" id="accueil">
+    <div class="hero__inner">
+      <div class="hero__content">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Courtier en énergie B2B — depuis 2014</p>
+        <h1 id="heroHeadline" aria-label="Advice Energy conseille les professionnels à comparer, négocier et optimiser les contrats de gaz et d'électricité depuis 2014.">
+          <span class="hero-headline__words" id="heroHeadlineWords" aria-hidden="true"><span class="hw">Advice</span> <span class="hw">Energy</span> <span class="hw">conseille</span> <span class="hw">les</span><br class="hero-headline__break"><span class="hw">professionnels</span> <span class="hw">à</span> <span class="hw hw--accent">comparer</span><span class="hw">,</span><br class="hero-headline__break"><span class="hw hw--accent">négocier</span><br class="hero-headline__break"><span class="hw">et</span> <span class="hw hw--accent">optimiser</span> <span class="hw">les</span> <span class="hw">contrats</span> <span class="hw">de</span><br class="hero-headline__break"><span class="hw">gaz</span><br class="hero-headline__break"><span class="hw">et</span> <span class="hw">d'électricité</span> <span class="hw">depuis</span> <span class="hw">2014.</span></span>
+        </h1>
+        <p class="hero__lede" data-i18n="hero.lede">Votre courtier en énergie dédié aux entreprises.</p>
+        <div class="hero__cta-group">
+          <a href="https://wa.me/33762331210?text=Bonjour%20Advice%20Energy%2C%20je%20souhaite%20comparer%20mes%20offres%20d%27%C3%A9nergie." class="btn btn--cta btn--lg" target="_blank" rel="noopener" data-i18n="hero.ctaPrimary">Comparer mes offres</a>
+          <a href="mailto:contacts@advice-assistance-energy.fr?subject=Demande%20de%20rappel%20gratuit" class="btn btn--ghost btn--lg" data-i18n="hero.ctaSecondary">Être rappelé gratuitement</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3) Barre de confiance -->
+    <div class="trustbar">
+      <ul class="trustbar__list">
+        <li class="trustbar__item trustbar__item--since"><strong data-i18n="trust.since">Depuis 2014</strong></li>
+        <li class="trustbar__item"><span class="check" aria-hidden="true">✓</span> <span data-i18n="trust.audit">Audit gratuit</span></li>
+        <li class="trustbar__item"><span class="check" aria-hidden="true">✓</span> <span data-i18n="trust.noCommitment">Sans engagement</span></li>
+        <li class="trustbar__item"><span class="check" aria-hidden="true">✓</span> <span data-i18n="trust.allSuppliers">Tous fournisseurs</span></li>
+        <li class="trustbar__item"><span class="check" aria-hidden="true">✓</span> <span data-i18n="trust.personalized">Accompagnement personnalisé</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- SCHÉMA — L'IMPACT D'ADVICE ENERGY -->
+  <!-- ============================= -->
+  <section class="section" id="impact">
+    <div class="section__inner">
+      <p class="eyebrow eyebrow--center" data-i18n="impact.eyebrow">Notre rôle en un coup d'œil</p>
+      <h2 class="section__title section__title--center" data-i18n="impact.title">Pourquoi passer par Advice Energy ?</h2>
+
+      <div class="impact-flow">
+        <div class="impact-block">
+          <span class="impact-block__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="1.5" stroke="currentColor" stroke-width="1.6"/><path d="M8 8h2M14 8h2M8 12h2M14 12h2M8 16h2M14 16h2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3 data-i18n="impact.blockClient.title">Votre entreprise</h3>
+          <p data-i18n="impact.blockClient.text">1 seul interlocuteur &amp; 0 démarche</p>
+        </div>
+
+        <div class="impact-connector" aria-hidden="true"><span class="impact-connector__dot"></span></div>
+
+        <div class="impact-block impact-block--center">
+          <span class="impact-block__badge" data-i18n="impact.blockCenter.badge">Neutre &amp; gratuit</span>
+          <span class="impact-block__icon impact-block__icon--accent" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Advice Energy</h3>
+          <ul>
+            <li data-i18n="impact.blockCenter.li1">100% neutre &amp; gratuit</li>
+            <li data-i18n="impact.blockCenter.li2">Met en concurrence + négocie</li>
+          </ul>
+        </div>
+
+        <div class="impact-connector" aria-hidden="true"><span class="impact-connector__dot" style="animation-delay: 1.2s"></span></div>
+
+        <div class="impact-block">
+          <span class="impact-block__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="6" cy="6" r="2.4" stroke="currentColor" stroke-width="1.6"/><circle cx="18" cy="6" r="2.4" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="18" r="2.4" stroke="currentColor" stroke-width="1.6"/><path d="M8 7l3 8M16 7l-3 8M8.4 6h7.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3 data-i18n="impact.suppliers.title">Fournisseurs</h3>
+          <p data-i18n="impact.suppliers.text">Accès direct aux meilleures offres du marché</p>
+        </div>
+      </div>
+
+      <div class="impact-badges">
+        <div class="impact-badge">
+          <span class="impact-badge__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div><strong data-i18n="impact.badge1.title">0 minute perdue</strong><span data-i18n="impact.badge1.text">On s'occupe de tout</span></div>
+        </div>
+        <div class="impact-badge impact-badge--accent">
+          <span class="impact-badge__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 7l6 6 4-4 6 6M14 15h6v-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <div><strong data-i18n="impact.badge2.title">Jusqu'à -30%</strong><span data-i18n="impact.badge2.text">Sur votre facture</span></div>
+        </div>
+        <div class="impact-badge">
+          <span class="impact-badge__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <div><strong data-i18n="impact.badge3.title">0 interruption</strong><span data-i18n="impact.badge3.text">De service &amp; sans engagement</span></div>
+        </div>
+      </div>
+
+      <div class="impact-toggle-wrap">
+        <button type="button" class="impact-toggle" id="impactToggle" aria-expanded="false" aria-controls="impactCompare">
+          <span id="impactToggleLabel" data-i18n="impact.toggle.show">Voir le comparatif avant / après</span>
+          <span class="impact-toggle__icon" aria-hidden="true">+</span>
+        </button>
+      </div>
+
+      <div class="impact-compare" id="impactCompare">
+        <div class="impact-compare__col impact-compare__col--before">
+          <p class="impact-compare__label" data-i18n="impact.compare.beforeLabel">Sans Advice Energy</p>
+          <ul>
+            <li data-i18n="impact.compare.before1">Plusieurs interlocuteurs à gérer</li>
+            <li data-i18n="impact.compare.before2">Comparaison manuelle et chronophage</li>
+            <li data-i18n="impact.compare.before3">Tarifs souvent non négociés</li>
+            <li data-i18n="impact.compare.before4">Démarches administratives à votre charge</li>
+          </ul>
+        </div>
+        <div class="impact-compare__arrow" aria-hidden="true">→</div>
+        <div class="impact-compare__col impact-compare__col--after">
+          <p class="impact-compare__label" data-i18n="impact.compare.afterLabel">Avec Advice Energy</p>
+          <ul>
+            <li data-i18n="impact.compare.after1">Un seul conseiller dédié</li>
+            <li data-i18n="impact.compare.after2">Comparaison neutre de tous les fournisseurs</li>
+            <li data-i18n="impact.compare.after3">Négociation des meilleures conditions</li>
+            <li data-i18n="impact.compare.after4">Gestion administrative prise en charge</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- Fournisseurs comparés (défilement) -->
+  <!-- ============================= -->
+  <section class="section section--soft" id="fournisseurs">
+    <div class="section__inner">
+      <p class="eyebrow eyebrow--center" data-i18n="suppliers.eyebrow">Comparaison multi-fournisseurs</p>
+      <h2 class="section__title section__title--center" data-i18n="suppliers.title">Les fournisseurs que nous comparons pour vous</h2>
+
+      <div class="logo-marquee">
+        <ul class="logo-track">
+          <li><img src="assets/images/Logo_EDF.webp" alt="EDF" class="logo-track__img" loading="lazy"></li>
+          <li><img src="assets/images/Logo_Engie.png" alt="Engie" class="logo-track__img" loading="lazy"></li>
+          <li><img src="assets/images/Logo_Total.webp" alt="TotalEnergies" class="logo-track__img" loading="lazy"></li>
+          <li><img src="assets/images/Logo_Ekwateur.png" alt="Ekwateur" class="logo-track__img" loading="lazy"></li>
+          <li><img src="assets/images/Logo_Gazel.png" alt="Gazel Énergie" class="logo-track__img" loading="lazy"></li>
+          <li><img src="assets/images/Logo_Alpiq.png" alt="Alpiq" class="logo-track__img" loading="lazy"></li>
+          <li><img src="assets/images/Logo_Vattenfall.png" alt="Vattenfall" class="logo-track__img" loading="lazy"></li>
+          <li><img src="assets/images/Logo_ENI.webp" alt="Eni" class="logo-track__img" loading="lazy"></li>
+          <li aria-hidden="true"><img src="assets/images/Logo_EDF.webp" alt="" class="logo-track__img" loading="lazy"></li>
+          <li aria-hidden="true"><img src="assets/images/Logo_Engie.png" alt="" class="logo-track__img" loading="lazy"></li>
+          <li aria-hidden="true"><img src="assets/images/Logo_Total.webp" alt="" class="logo-track__img" loading="lazy"></li>
+          <li aria-hidden="true"><img src="assets/images/Logo_Ekwateur.png" alt="" class="logo-track__img" loading="lazy"></li>
+          <li aria-hidden="true"><img src="assets/images/Logo_Gazel.png" alt="" class="logo-track__img" loading="lazy"></li>
+          <li aria-hidden="true"><img src="assets/images/Logo_Alpiq.png" alt="" class="logo-track__img" loading="lazy"></li>
+          <li aria-hidden="true"><img src="assets/images/Logo_Vattenfall.png" alt="" class="logo-track__img" loading="lazy"></li>
+          <li aria-hidden="true"><img src="assets/images/Logo_ENI.webp" alt="" class="logo-track__img" loading="lazy"></li>
+        </ul>
+      </div>
+      <p class="logo-grid__note" data-i18n="suppliers.note">Les marques citées appartiennent à leurs propriétaires respectifs et sont mentionnées à titre informatif.</p>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- 4) Pourquoi comparer          -->
+  <!-- ============================= -->
+  <section class="section" id="pourquoi-comparer">
+    <div class="section__inner">
+      <h2 class="section__title section__title--center" data-i18n="why.title">Pourquoi comparer votre contrat ?</h2>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2v20M17 6.5C17 4.6 14.8 3 12 3s-5 1.6-5 3.5S9.2 10 12 10s5 1.6 5 3.5-2.2 3.5-5 3.5-5-1.6-5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3 data-i18n="why.card1.title">Économisez sur vos factures</h3>
+          <p data-i18n="why.card1.text">Identifiez l'offre la plus compétitive du marché et réduisez durablement votre budget énergie.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 data-i18n="why.card2.title">Gagnez du temps</h3>
+          <p data-i18n="why.card2.text">Un seul échange suffit : nous analysons le marché et préparons les propositions à votre place.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="7" height="16" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="14" y="4" width="7" height="10" rx="1.5" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <h3 data-i18n="why.card3.title">Comparez tous les fournisseurs</h3>
+          <p data-i18n="why.card3.text">Une analyse neutre et indépendante des principaux fournisseurs d'électricité et de gaz du marché.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.4" stroke="currentColor" stroke-width="1.6"/><path d="M4.5 20c1.4-4 4-6 7.5-6s6.1 2 7.5 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3 data-i18n="why.card4.title">Un conseiller dédié</h3>
+          <p data-i18n="why.card4.text">Un interlocuteur unique vous accompagne de l'audit jusqu'à la signature du contrat.</p>
+        </article>
+      </div>
+
+      <div class="section__cta">
+        <a href="https://wa.me/33762331210?text=Bonjour%20Advice%20Energy%2C%20je%20souhaite%20comparer%20mes%20offres%20d%27%C3%A9nergie." class="btn btn--cta btn--lg" target="_blank" rel="noopener" data-i18n="why.cta">Je compare mes offres</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- 5) Nos solutions               -->
+  <!-- ============================= -->
+  <section class="section section--soft" id="solutions">
+    <div class="section__inner">
+      <p class="eyebrow eyebrow--center" data-i18n="solutions.eyebrow">Nos solutions</p>
+      <h2 class="section__title section__title--center" data-i18n="solutions.title">Une offre pensée pour chaque besoin</h2>
+
+      <div class="offer-grid">
+        <article class="offer-card">
+          <span class="offer-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 data-i18n="solutions.elec.title">Électricité</h3>
+          <p data-i18n="solutions.elec.text">Comparaison des offres de fourniture d'électricité adaptées à votre profil de consommation et à votre secteur d'activité.</p>
+          <a href="#" class="offer-card__link"><span data-i18n="solutions.discover">Découvrir</span> <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="offer-card">
+          <span class="offer-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M9 3c0 3-4 4-4 9a5 5 0 0 0 10 0c0-2-1-3-1-3s0 2-2 2c1-3-1-5-1-8-1 2-2 2-2 0z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 data-i18n="solutions.gaz.title">Gaz</h3>
+          <p data-i18n="solutions.gaz.text">Des contrats de gaz naturel négociés au meilleur prix, avec un suivi transparent de l'évolution du marché.</p>
+          <a href="#" class="offer-card__link"><span data-i18n="solutions.discover">Découvrir</span> <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="offer-card">
+          <span class="offer-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6"/><path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3 data-i18n="solutions.opt.title">Optimisation énergétique</h3>
+          <p data-i18n="solutions.opt.text">Audit de vos usages et recommandations concrètes pour réduire votre consommation et votre empreinte carbone.</p>
+          <a href="https://wa.me/33762331210?text=Bonjour%20Advice%20Energy%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20l%27optimisation%20%C3%A9nerg%C3%A9tique." class="offer-card__link" target="_blank" rel="noopener"><span data-i18n="solutions.opt.cta">J'en profite</span> <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- 6) Comment ça fonctionne       -->
+  <!-- ============================= -->
+  <section class="section" id="comparateur">
+    <div class="section__inner">
+      <h2 class="section__title section__title--center" data-i18n="timeline.title">Comment ça fonctionne ?</h2>
+      <p class="section__lede section__lede--center" data-i18n="timeline.lede">Un parcours simple, en quatre étapes, du premier échange jusqu'à la signature de votre contrat.</p>
+
+      <ol class="timeline">
+        <li class="timeline__step">
+          <span class="timeline__number">01</span>
+          <h3 data-i18n="timeline.step1.title">Analyse</h3>
+          <p data-i18n="timeline.step1.text">Nous étudions vos factures et votre profil de consommation.</p>
+        </li>
+        <li class="timeline__step">
+          <span class="timeline__number">02</span>
+          <h3 data-i18n="timeline.step2.title">Comparaison</h3>
+          <p data-i18n="timeline.step2.text">Nous consultons les principaux fournisseurs du marché pour vous.</p>
+        </li>
+        <li class="timeline__step">
+          <span class="timeline__number">03</span>
+          <h3 data-i18n="timeline.step3.title">Négociation</h3>
+          <p data-i18n="timeline.step3.text">Nous négocions les meilleures conditions tarifaires et contractuelles.</p>
+        </li>
+        <li class="timeline__step">
+          <span class="timeline__number">04</span>
+          <h3 data-i18n="timeline.step4.title">Signature</h3>
+          <p data-i18n="timeline.step4.text">Vous validez l'offre retenue, nous gérons les démarches administratives.</p>
+        </li>
+      </ol>
+
+      <div class="section__cta">
+        <a href="https://wa.me/33762331210?text=Bonjour%20Advice%20Energy%2C%20je%20souhaite%20parler%20%C3%A0%20un%20expert." class="btn btn--cta btn--lg" target="_blank" rel="noopener" data-i18n="cta.talkExpert">Parler à un expert</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- 7) Pourquoi Advice Energy      -->
+  <!-- ============================= -->
+  <section class="section section--soft" id="apropos">
+    <div class="section__inner section__inner--split">
+      <div class="apropos__text">
+        <p class="eyebrow" data-i18n="apropos.eyebrow">À propos</p>
+        <h2 class="section__title" data-i18n="apropos.title">Pourquoi Advice Energy ?</h2>
+        <ul class="check-list">
+          <li>
+            <span class="check-list__mark" aria-hidden="true">✓</span>
+            <div><strong data-i18n="apropos.item1.title">Depuis 2014</strong><span data-i18n="apropos.item1.text">Des centaines d'entreprises accompagnées dans toute la France.</span></div>
+          </li>
+          <li>
+            <span class="check-list__mark" aria-hidden="true">✓</span>
+            <div><strong data-i18n="apropos.item2.title">Comparaison neutre</strong><span data-i18n="apropos.item2.text">Une analyse indépendante des principaux fournisseurs d'énergie.</span></div>
+          </li>
+          <li>
+            <span class="check-list__mark" aria-hidden="true">✓</span>
+            <div><strong data-i18n="apropos.item3.title">Accompagnement complet</strong><span data-i18n="apropos.item3.text">Gestion administrative prise en charge du début à la fin.</span></div>
+          </li>
+          <li>
+            <span class="check-list__mark" aria-hidden="true">✓</span>
+            <div><strong data-i18n="apropos.item4.title">Un seul interlocuteur</strong><span data-i18n="apropos.item4.text">Un conseiller dédié vous suit sur toute la durée du contrat.</span></div>
+          </li>
+        </ul>
+      </div>
+      <div class="apropos__visual" aria-hidden="true">
+        <div class="apropos__badge">
+          <span class="apropos__badge-year">2014</span>
+          <span class="apropos__badge-label" data-i18n="common.foundedLabel">Année de création</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- 9) Chiffres clés               -->
+  <!-- ============================= -->
+  <section class="stats" id="chiffres">
+    <div class="section__inner">
+      <div class="stats__grid">
+        <div class="stats__item">
+          <span class="stats__value" data-static>2014</span>
+          <span class="stats__label" data-i18n="common.foundedLabel">Année de création</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__value" data-counter data-target="450" data-suffix="+">0</span>
+          <span class="stats__label" data-i18n="stats.label2">Entreprises accompagnées</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__value" data-counter data-target="12000" data-suffix=" MWh">0</span>
+          <span class="stats__label" data-i18n="stats.label3">Analysés chaque année</span>
+        </div>
+        <div class="stats__item">
+          <span class="stats__value" data-counter data-target="22" data-suffix="%">0</span>
+          <span class="stats__label" data-i18n="stats.label4">D'économies moyennes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- 10) Témoignages                -->
+  <!-- ============================= -->
+  <section class="section section--soft" id="temoignages">
+    <div class="section__inner">
+      <p class="eyebrow eyebrow--center" data-i18n="testimonials.eyebrow">Témoignages</p>
+      <h2 class="section__title section__title--center" data-i18n="testimonials.title">Ils nous font confiance</h2>
+
+      <div class="testimonial-marquee">
+        <div class="testimonial-track">
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 étoiles sur 5">★★★★★</div>
+            <p class="testimonial-card__quote" data-i18n="testimonials.quote1">Un accompagnement sérieux du premier échange jusqu'à la signature. Nous avons gagné du temps et réduit notre facture d'électricité sans effort de notre côté.</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__avatar" aria-hidden="true">SM</span>
+              <div>
+                <strong>Sophie Marchand</strong>
+                <span data-i18n="testimonials.role1">Directrice administrative, Atelier Lumen</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 étoiles sur 5">★★★★★</div>
+            <p class="testimonial-card__quote" data-i18n="testimonials.quote2">Le conseiller dédié a très bien compris nos contraintes de production. La comparaison était claire et la négociation nous a fait gagner un budget conséquent.</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__avatar" aria-hidden="true">TR</span>
+              <div>
+                <strong>Thomas Roussel</strong>
+                <span data-i18n="testimonials.role2">Gérant, Menuiserie Roussel &amp; Fils</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 étoiles sur 5">★★★★★</div>
+            <p class="testimonial-card__quote" data-i18n="testimonials.quote3">Process simple et transparent. Advice Energy a géré toute la partie administrative, on a juste eu à valider l'offre retenue.</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__avatar" aria-hidden="true">CB</span>
+              <div>
+                <strong>Camille Bertrand</strong>
+                <span data-i18n="testimonials.role3">Responsable achats, Groupe Norea</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card" aria-hidden="true">
+            <div class="testimonial-card__stars" aria-label="5 étoiles sur 5">★★★★★</div>
+            <p class="testimonial-card__quote" data-i18n="testimonials.quote1">Un accompagnement sérieux du premier échange jusqu'à la signature. Nous avons gagné du temps et réduit notre facture d'électricité sans effort de notre côté.</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__avatar" aria-hidden="true">SM</span>
+              <div>
+                <strong>Sophie Marchand</strong>
+                <span data-i18n="testimonials.role1">Directrice administrative, Atelier Lumen</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card" aria-hidden="true">
+            <div class="testimonial-card__stars" aria-label="5 étoiles sur 5">★★★★★</div>
+            <p class="testimonial-card__quote" data-i18n="testimonials.quote2">Le conseiller dédié a très bien compris nos contraintes de production. La comparaison était claire et la négociation nous a fait gagner un budget conséquent.</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__avatar" aria-hidden="true">TR</span>
+              <div>
+                <strong>Thomas Roussel</strong>
+                <span data-i18n="testimonials.role2">Gérant, Menuiserie Roussel &amp; Fils</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card" aria-hidden="true">
+            <div class="testimonial-card__stars" aria-label="5 étoiles sur 5">★★★★★</div>
+            <p class="testimonial-card__quote" data-i18n="testimonials.quote3">Process simple et transparent. Advice Energy a géré toute la partie administrative, on a juste eu à valider l'offre retenue.</p>
+            <div class="testimonial-card__author">
+              <span class="testimonial-card__avatar" aria-hidden="true">CB</span>
+              <div>
+                <strong>Camille Bertrand</strong>
+                <span data-i18n="testimonials.role3">Responsable achats, Groupe Norea</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- 11) Actualités du marché       -->
+  <!-- ============================= -->
+  <section class="section" id="actualites">
+    <div class="section__inner">
+      <p class="eyebrow eyebrow--center" data-i18n="news.eyebrow">Marché de l'énergie</p>
+      <h2 class="section__title section__title--center" data-i18n="news.title">Comprendre l'évolution des prix</h2>
+      <p class="section__lede section__lede--center" data-i18n="news.lede">De l'ouverture du marché en 2007 à la crise énergétique de 2022 : explorez deux décennies de variations de prix et leurs causes.</p>
+
+      <!-- ============================= -->
+      <!-- GRAPHIQUE INTERACTIF — PRIX ÉNERGIE -->
+      <!-- ============================= -->
+      <div class="energy-chart">
+
+        <div class="energy-chart__filters" role="group" aria-label="Filtrer par type d'énergie">
+          <button type="button" class="energy-filter is-active" data-series="global" data-i18n="chart.global">Global / Mix</button>
+          <button type="button" class="energy-filter" data-series="electricite" data-i18n="chart.elec">Électricité</button>
+          <button type="button" class="energy-filter" data-series="gaz" data-i18n="chart.gaz">Gaz</button>
+        </div>
+
+        <div class="energy-stats">
+          <div class="energy-stat">
+            <span class="energy-stat__label" data-i18n="chart.statCurrent">Prix actuel (2026)</span>
+            <span class="energy-stat__value" id="statCurrent">—</span>
+          </div>
+          <div class="energy-stat">
+            <span class="energy-stat__label" data-i18n="chart.statPeak">Pic historique</span>
+            <span class="energy-stat__value energy-stat__value--peak" id="statPeak">—</span>
+          </div>
+          <div class="energy-stat">
+            <span class="energy-stat__label" data-i18n="chart.statVariation">Variation depuis 2007</span>
+            <span class="energy-stat__value" id="statVariation">—</span>
+          </div>
+          <div class="energy-stat">
+            <span class="energy-stat__label" data-i18n="chart.statMilestones">Jalons majeurs</span>
+            <span class="energy-stat__value" id="statMilestones">—</span>
+          </div>
+        </div>
+
+        <div class="energy-chart__card">
+          <div class="energy-chart__legend">
+            <span class="energy-legend-item"><span class="energy-dot" style="background:#16a34a"></span><span data-i18n="chart.legendStable">Stable</span></span>
+            <span class="energy-legend-item"><span class="energy-dot" style="background:#f59e0b"></span><span data-i18n="chart.legendRising">Tension à la hausse</span></span>
+            <span class="energy-legend-item"><span class="energy-dot" style="background:#dc2626"></span><span data-i18n="chart.legendCrisis">Crise / pic historique</span></span>
+            <span class="energy-legend-item energy-legend-item--hint" data-i18n="chart.legendHint">Cliquez sur un point marquant</span>
+          </div>
+
+          <div class="energy-chart__canvas-wrap">
+            <canvas id="energyPriceChart" role="img" aria-label="Courbe d'évolution du prix de gros de l'énergie en euros par MWh, de 2007 à 2026"></canvas>
+          </div>
+
+          <div class="energy-chart__milestones" id="energyMilestones"></div>
+        </div>
+
+        <div class="energy-detail" id="energyDetail">
+          <div class="energy-detail__header" id="energyDetailHeader">
+            <div class="energy-detail__tag">
+              <span class="energy-dot" id="energyDetailDot"></span>
+              <span id="energyDetailRange"></span>
+            </div>
+            <h3 id="energyDetailTitle"></h3>
+            <p id="energyDetailShort"></p>
+          </div>
+          <div class="energy-detail__grid">
+            <div class="energy-detail__col energy-detail__col--geo">
+              <p class="energy-detail__col-label" data-i18n="chart.colGeo">Facteurs géopolitiques</p>
+              <p id="energyDetailGeo"></p>
+            </div>
+            <div class="energy-detail__col energy-detail__col--reg">
+              <p class="energy-detail__col-label" data-i18n="chart.colReg">Facteurs réglementaires et taxes</p>
+              <p id="energyDetailReg"></p>
+            </div>
+            <div class="energy-detail__col energy-detail__col--eco">
+              <p class="energy-detail__col-label" data-i18n="chart.colEco">Facteurs économiques (offre / demande)</p>
+              <p id="energyDetailEco"></p>
+            </div>
+          </div>
+        </div>
+
+        <p class="energy-chart__disclaimer" data-i18n="chart.disclaimer">Prix de gros moyens annuels, en €/MWh, hors taxes et hors acheminement (électricité : marché spot EPEX France ; gaz : PEG/TTF). Sources : RTE, EPEX Spot, SDES — Ministère de la Transition écologique, Opéra Énergie. Données 2016-2024 officielles ; 2007-2015 estimées à partir des fourchettes publiées ; 2025-2026 provisoires (année en cours).</p>
+      </div>
+
+      <h3 class="energy-news-title" data-i18n="news.latestTitle">Les dernières actualités</h3>
+      <div class="news-grid">
+        <article class="news-card">
+          <span class="news-card__tag" data-i18n="news.card1.tag">Prix</span>
+          <h3 data-i18n="news.card1.title">Hausse des prix de l'électricité : ce qu'il faut savoir</h3>
+          <p data-i18n="news.card1.text">Les tarifs évoluent régulièrement sous l'effet du marché de gros. Comment anticiper ces variations pour votre entreprise.</p>
+          <a href="#" class="news-card__link"><span data-i18n="news.readMore">Lire l'article</span> <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="news-card">
+          <span class="news-card__tag" data-i18n="news.card2.tag">Fiscalité</span>
+          <h3 data-i18n="news.card2.title">Taxes et contributions sur l'énergie : le point complet</h3>
+          <p data-i18n="news.card2.text">TICFE, CTA, accise sur le gaz : décryptage des taxes qui composent votre facture d'énergie professionnelle.</p>
+          <a href="#" class="news-card__link"><span data-i18n="news.readMore">Lire l'article</span> <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="news-card">
+          <span class="news-card__tag" data-i18n="news.card3.tag">Réglementation</span>
+          <h3 data-i18n="news.card3.title">ARENH : quel impact sur vos contrats d'électricité ?</h3>
+          <p data-i18n="news.card3.text">Le dispositif d'accès régulé à l'électricité nucléaire historique influence directement les prix proposés aux entreprises.</p>
+          <a href="#" class="news-card__link"><span data-i18n="news.readMore">Lire l'article</span> <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="news-card">
+          <span class="news-card__tag" data-i18n="news.card4.tag">International</span>
+          <h3 data-i18n="news.card4.title">Marché européen de l'énergie : les tendances à suivre</h3>
+          <p data-i18n="news.card4.text">Interconnexions, mix énergétique et transition : comment le marché européen influence les prix en France.</p>
+          <a href="#" class="news-card__link"><span data-i18n="news.readMore">Lire l'article</span> <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- 12) FAQ                        -->
+  <!-- ============================= -->
+  <!-- ============================= -->
+  <!-- ÉNERGIE RENOUVELABLE & SOLAIRE -->
+  <!-- ============================= -->
+  <section class="section solar-section" id="solaire">
+    <div class="section__inner">
+      <p class="eyebrow eyebrow--center" data-i18n="solar.eyebrow">Énergie renouvelable</p>
+      <h2 class="section__title section__title--center" data-i18n="solar.title">La transition énergétique, un choix rentable pour votre entreprise</h2>
+      <p class="section__lede section__lede--center" data-i18n="solar.lede">Verdir votre approvisionnement n'est plus un compromis entre image et budget. Entre électricité certifiée, autoconsommation solaire et maîtrise des coûts sur la durée, la transition énergétique est aujourd'hui un vrai levier de performance pour votre entreprise.</p>
+
+      <div class="solar-grid">
+        <div class="solar-card">
+          <span class="solar-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3 data-i18n="solar.card1.title">Électricité verte certifiée</h3>
+          <p data-i18n="solar.card1.text">Grâce aux Garanties d'Origine, chaque MWh consommé est tracé et certifié comme issu d'une production renouvelable française, via un registre national indépendant.</p>
+        </div>
+
+        <div class="solar-card">
+          <span class="solar-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="6" width="8" height="5" rx="1" stroke="currentColor" stroke-width="1.6"/><rect x="13" y="6" width="8" height="5" rx="1" stroke="currentColor" stroke-width="1.6"/><rect x="3" y="13" width="8" height="5" rx="1" stroke="currentColor" stroke-width="1.6"/><rect x="13" y="13" width="8" height="5" rx="1" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <h3 data-i18n="solar.card2.title">Autoconsommation solaire</h3>
+          <p data-i18n="solar.card2.text">Installez des panneaux sur votre toiture ou vos parkings et consommez directement l'électricité que vous produisez, pour réduire votre dépendance au réseau.</p>
+        </div>
+
+        <div class="solar-card">
+          <span class="solar-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 20c8 0 14-6 14-14 0-1-.1-2-.2-2.8C9 3.5 4 8.5 4 16c0 1.4.1 2.8.1 2.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 18c4-4 8-8 12-14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3 data-i18n="solar.card3.title">Image &amp; engagement RSE</h3>
+          <p data-i18n="solar.card3.text">Valorisez votre démarche environnementale auprès de vos clients, salariés et partenaires grâce à des attestations et supports de communication dédiés.</p>
+        </div>
+
+        <div class="solar-card">
+          <span class="solar-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M8 11V8a4 4 0 0 1 8 0v3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </span>
+          <h3 data-i18n="solar.card4.title">Maîtrise des coûts à long terme</h3>
+          <p data-i18n="solar.card4.text">Sécurisez une partie de votre approvisionnement face à la volatilité des marchés et donnez de la visibilité à votre budget énergie sur plusieurs années.</p>
+        </div>
+      </div>
+
+      <div class="section__cta">
+        <a href="https://wa.me/33762331210?text=Bonjour%20Advice%20Energy%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20le%20solaire%20pour%20mon%20entreprise." class="btn btn--cta btn--lg" target="_blank" rel="noopener" data-i18n="cta.talkExpert">Parler à un expert</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- ABONNEMENT — ACCOMPAGNEMENT CONTINU -->
+  <!-- ============================= -->
+  <section class="section subscription-section" id="abonnement">
+    <div class="section__inner section__inner--split">
+
+      <div class="subscription__text">
+        <p class="eyebrow" data-i18n="sub.eyebrow">Abonnement Advice Energy</p>
+        <h2 class="section__title" data-i18n="sub.title">Un conseiller dédié à vos côtés, toute l'année</h2>
+        <p class="hero__lede" data-i18n="sub.lede">Votre comparaison initiale reste gratuite. Avec l'abonnement Advice Energy, vous gardez ensuite un expert qui surveille, ajuste et renégocie votre contrat pour vous, en continu.</p>
+
+        <ul class="sub-benefits">
+          <li class="sub-benefit">
+            <span class="sub-benefit__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 13a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><rect x="3" y="13" width="4" height="6" rx="1.5" stroke="currentColor" stroke-width="1.6"/><rect x="17" y="13" width="4" height="6" rx="1.5" stroke="currentColor" stroke-width="1.6"/><path d="M19 19v1a3 3 0 0 1-3 3h-3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <div><strong data-i18n="sub.b1.title">Conseiller dédié</strong><span data-i18n="sub.b1.text">Un interlocuteur unique, joignable directement, qui connaît votre dossier par cœur.</span></div>
+          </li>
+          <li class="sub-benefit">
+            <span class="sub-benefit__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a5 5 0 0 0-5 5c0 5-2 6-2 7h14c0-1-2-2-2-7a5 5 0 0 0-5-5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M10 19a2 2 0 0 0 4 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <div><strong data-i18n="sub.b2.title">Alertes de renouvellement</strong><span data-i18n="sub.b2.text">Vous êtes prévenu avant chaque échéance pour ne jamais reconduire au mauvais moment.</span></div>
+          </li>
+          <li class="sub-benefit">
+            <span class="sub-benefit__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 20V10M11 20V4M18 20v-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            </span>
+            <div><strong data-i18n="sub.b3.title">Suivi de consommation</strong><span data-i18n="sub.b3.text">Un point régulier sur votre facture, avec des pistes d'optimisation concrètes.</span></div>
+          </li>
+          <li class="sub-benefit">
+            <span class="sub-benefit__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M3 12l5-5M3 12l5 5M3 12h11M21 12l-5-5M21 12l-5 5M21 12H10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div><strong data-i18n="sub.b4.title">Renégociation prioritaire</strong><span data-i18n="sub.b4.text">Dès qu'une meilleure offre apparaît sur le marché, votre conseiller vous la propose en premier.</span></div>
+          </li>
+          <li class="sub-benefit">
+            <span class="sub-benefit__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.4 8.4 0 0 1-8.4 8.4 8.5 8.5 0 0 1-3.8-.9L3 20l1.1-5.6a8.4 8.4 0 1 1 16.9-2.9z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </span>
+            <div><strong data-i18n="sub.b5.title">Support illimité</strong><span data-i18n="sub.b5.text">Par téléphone, e-mail ou WhatsApp, autant de fois que nécessaire.</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="subscription__card-wrap">
+        <div class="pricing-card">
+          <span class="pricing-card__badge" data-i18n="sub.badge">Sans engagement</span>
+          <p class="pricing-card__name">Advice Energy</p>
+          <div class="pricing-card__price">
+            <span class="pricing-card__amount">10,99&nbsp;€</span>
+            <span class="pricing-card__period" data-i18n="sub.perMonth">/ mois</span>
+          </div>
+          <p class="pricing-card__note" data-i18n="sub.note">Résiliable à tout moment, sans frais ni justification.</p>
+          <a href="https://wa.me/33762331210?text=Bonjour%20Advice%20Energy%2C%20je%20souhaite%20m%27abonner%20%C3%A0%20l%27accompagnement%20%C3%A0%2010%2C99%E2%82%AC%2Fmois." class="btn btn--cta btn--lg btn--block" target="_blank" rel="noopener" data-i18n="sub.cta">Je me fais accompagner pour 10,99€/mois</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section section--soft" id="faq">
+    <div class="section__inner section__inner--narrow">
+      <p class="eyebrow eyebrow--center" data-i18n="faq.eyebrow">Questions fréquentes</p>
+      <h2 class="section__title section__title--center" data-i18n="faq.title">Tout ce que vous devez savoir</h2>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            <span data-i18n="faq.q1.q">Comment résilier mon contrat ?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer">
+            <p data-i18n="faq.q1.a">Vous n'avez aucune démarche à effectuer : votre conseiller Advice Energy se charge de la résiliation de votre ancien contrat auprès de votre fournisseur actuel et coordonne la bascule vers votre nouveau contrat, sans interruption de service.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            <span data-i18n="faq.q2.q">Le service Advice Energy est-il vraiment gratuit ?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer">
+            <p data-i18n="faq.q2.a">Oui. L'audit et la comparaison des offres sont entièrement gratuits et sans engagement. Nous sommes rémunérés par les fournisseurs une fois le contrat signé, sans surcoût pour vous.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            <span data-i18n="faq.q3.q">Combien de temps dure le processus de comparaison ?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer">
+            <p data-i18n="faq.q3.a">Selon la complexité de votre profil de consommation, l'analyse et la comparaison prennent généralement entre 48 heures et une semaine.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            <span data-i18n="faq.q4.q">Suis-je engagé si je fais réaliser un audit ?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer">
+            <p data-i18n="faq.q4.a">Non, l'audit ne vous engage à rien. Vous restez libre d'accepter ou de refuser les propositions que nous vous transmettons.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            <span data-i18n="faq.q5.q">Advice Energy travaille-t-il avec tous les fournisseurs ?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer">
+            <p data-i18n="faq.q5.a">Nous comparons les offres des principaux fournisseurs d'électricité et de gaz du marché français et européen, de manière neutre et indépendante.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-item__question" aria-expanded="false">
+            <span data-i18n="faq.q6.q">Qui s'occupe des démarches administratives ?</span>
+            <span class="faq-item__icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-item__answer">
+            <p data-i18n="faq.q6.a">Votre conseiller dédié prend en charge l'ensemble des démarches, de la résiliation de l'ancien contrat jusqu'à l'activation du nouveau.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- 13) Bandeau CTA final          -->
+  <!-- ============================= -->
+  <section class="cta-banner" id="besoin-expert">
+    <div class="section__inner cta-banner__inner">
+      <div>
+        <h2 data-i18n="ctabanner.title">Besoin d'un expert ?</h2>
+        <p data-i18n="ctabanner.text">Notre équipe vous répond sous 24h ouvrées pour faire le point sur vos contrats d'énergie.</p>
+      </div>
+      <div class="cta-banner__contact">
+        <a href="tel:0762331210" class="cta-banner__link">
+          <span aria-hidden="true">📞</span> 07 62 33 12 10
+        </a>
+        <a href="mailto:contacts@advice-assistance-energy.fr" class="cta-banner__link">
+          <span aria-hidden="true">✉️</span> contacts@advice-assistance-energy.fr
+        </a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Nanterre%2C%20France" class="cta-banner__link" target="_blank" rel="noopener">
+          <span aria-hidden="true">📍</span> Nanterre, France
+        </a>
+        <a href="mailto:contacts@advice-assistance-energy.fr?subject=Demande%20de%20rappel%20gratuit" class="btn btn--cta-inverse btn--lg" data-i18n="ctabanner.callback">Être rappelé</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- 13bis) FORMULAIRE DE CONTACT   -->
+  <!-- ============================= -->
+  <section class="section section--soft" id="contact">
+    <div class="section__inner section__inner--narrow">
+      <p class="eyebrow eyebrow--center" data-i18n="contact.eyebrow">Contact</p>
+      <h2 class="section__title section__title--center" data-i18n="contact.title">Parlons de votre contrat d'énergie</h2>
+      <p class="section__lede section__lede--center" data-i18n="contact.lede">Renseignez vos coordonnées, un conseiller Advice Energy revient vers vous sous 24h ouvrées.</p>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="contact-form__row">
+          <div class="contact-form__field">
+            <label for="cfName" data-i18n="contact.labelName">Nom et prénom</label>
+            <input type="text" id="cfName" name="name" autocomplete="name" required>
+          </div>
+          <div class="contact-form__field">
+            <label for="cfCompany" data-i18n="contact.labelCompany">Entreprise</label>
+            <input type="text" id="cfCompany" name="company" autocomplete="organization">
+          </div>
+        </div>
+
+        <div class="contact-form__row">
+          <div class="contact-form__field">
+            <label for="cfEmail" data-i18n="contact.labelEmail">E-mail</label>
+            <input type="email" id="cfEmail" name="email" autocomplete="email" required>
+          </div>
+          <div class="contact-form__field">
+            <label for="cfPhone" data-i18n="contact.labelPhone">Téléphone</label>
+            <input type="tel" id="cfPhone" name="phone" autocomplete="tel">
+          </div>
+        </div>
+
+        <div class="contact-form__field">
+          <label for="cfMessage" data-i18n="contact.labelMessage">Votre message</label>
+          <textarea id="cfMessage" name="message" rows="4" placeholder="Décrivez votre besoin : type de contrat, échéance, nombre de sites..." data-i18n-placeholder="contact.messagePlaceholder"></textarea>
+        </div>
+
+        <div class="contact-form__footer">
+          <p class="contact-form__note" id="contactFormNote" data-i18n="contact.note">En envoyant ce formulaire, votre client mail s'ouvrira avec votre demande pré-remplie, prête à envoyer.</p>
+          <button type="submit" class="btn btn--cta btn--lg" data-i18n="contact.submit">Envoyer ma demande</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================= -->
+<!-- 14) FOOTER                     -->
+<!-- ============================= -->
+<footer class="site-footer">
+  <div class="section__inner site-footer__inner">
+    <div class="site-footer__brand">
+      <img src="assets/images/Advice_Energy_Logo.png" alt="Advice Energy" class="site-footer__logo">
+      <p data-i18n="footer.tagline">Courtier en énergie pour professionnels depuis 2014. Comparaison neutre, accompagnement complet.</p>
+      <a href="#" class="site-footer__social" aria-label="Advice Energy sur LinkedIn">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M7.5 10v6.5M7.5 7.6v.1M11.5 16.5V13c0-1.4.9-2.4 2.2-2.4 1.2 0 2 .9 2 2.3v3.6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </a>
+    </div>
+
+    <nav class="site-footer__col" aria-label="Navigation">
+      <h3 data-i18n="footer.navHeading">Navigation</h3>
+      <ul>
+        <li><a href="#accueil" data-i18n="nav.accueil">Accueil</a></li>
+        <li><a href="#solutions" data-i18n="nav.solutions">Nos solutions</a></li>
+        <li><a href="#comparateur" data-i18n="nav.comparateur">Comparateur</a></li>
+        <li><a href="#actualites" data-i18n="nav.marche">Marché de l'énergie</a></li>
+        <li><a href="#apropos" data-i18n="nav.apropos">À propos</a></li>
+      </ul>
+    </nav>
+
+    <div class="site-footer__col">
+      <h3 data-i18n="footer.legalHeading">Légal</h3>
+      <ul>
+        <li><a href="#" data-i18n="footer.legal1">Mentions légales</a></li>
+        <li><a href="#" data-i18n="footer.legal2">CGU</a></li>
+        <li><a href="#" data-i18n="footer.legal3">Politique de confidentialité</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h3 data-i18n="nav.contact">Contact</h3>
+      <ul>
+        <li><a href="tel:0762331210">07 62 33 12 10</a></li>
+        <li><a href="mailto:contacts@advice-assistance-energy.fr">contacts@advice-assistance-energy.fr</a></li>
+        <li><a href="https://www.google.com/maps/search/?api=1&query=Nanterre%2C%20France" target="_blank" rel="noopener">Nanterre, France</a></li>
+        <li><a href="#contact" data-i18n="footer.contactFormLink">Formulaire de contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="site-footer__bottom">
+    <p>© <span id="currentYear"></span> Advice Energy. <span data-i18n="footer.rights">Tous droits réservés.</span></p>
+  </div>
+</footer>
+
+<!-- ============================= -->
+<!-- BOUTONS FLOTTANTS — CONTACT   -->
+<!-- ============================= -->
+<div class="float-contact">
+  <a href="mailto:contacts@advice-assistance-energy.fr" class="float-contact__btn float-contact__btn--email" aria-label="Nous écrire par e-mail">
+    <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M4 7l8 6 8-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span class="float-contact__tooltip">Email</span>
+  </a>
+  <a href="https://wa.me/33762331210?text=Bonjour%20Advice%20Energy%2C%20j%27ai%20une%20question." class="float-contact__btn float-contact__btn--whatsapp" target="_blank" rel="noopener" aria-label="Nous écrire sur WhatsApp">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8.5 9.3c.2-.5.5-.6.8-.6h.5c.2 0 .4.1.5.4l.6 1.3c.1.3 0 .5-.1.7l-.5.5c-.1.2-.1.3 0 .5.5.9 1.4 1.8 2.3 2.3.2.1.3.1.5 0l.5-.5c.2-.2.4-.2.7-.1l1.3.6c.3.1.4.3.4.5v.5c0 .3-.1.6-.5.8-.9.4-2.2.2-4-1-1.4-.9-2.7-2.2-3.6-3.6-1.1-1.7-1.3-2.9-1-3.9z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="currentColor" fill-opacity="0.08"/></svg>
+    <span class="float-contact__tooltip">WhatsApp</span>
+  </a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="assets/js/energy-chart.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
