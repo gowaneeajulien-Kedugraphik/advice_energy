@@ -1,5 +1,5 @@
 /* =====================================================
-   ADVICE ENERGY — GRAPHIQUE INTERACTIF PRIX ÉNERGIE
+   ADVICE ENERGY - GRAPHIQUE INTERACTIF PRIX ENERGIE
    Vanilla JS + Chart.js (chargé via CDN dans index.html)
 
    Objectif conversion : rendre visible en un coup d'œil
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
      Prix de gros moyens annuels, en €/MWh, hors taxes et
      hors acheminement (électricité : marché spot day-ahead
      EPEX France ; gaz : PEG/TTF).
-     Sources : RTE (Bilan électrique), EPEX Spot, SDES —
+     Sources : RTE (Bilan électrique), EPEX Spot, SDES,
      Ministère de la Transition écologique ("Prix de
      l'énergie", chiffres clés 2025), Opéra Énergie.
      2007-2015 : ordres de grandeur reconstitués à partir des
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function () {
         geo: 'Une offre mondiale abondante (gaz de schiste américain, GNL supplémentaire, surproduction pétrolière) maintient les prix de gros à un niveau bas et stable sur presque toute la décennie 2015-2019.',
         reg: "La fiscalité carbone (ETS) continue de monter progressivement, mais son effet sur les prix reste masqué par l'abondance de l'offre fossile mondiale.",
         eco: "Les prix de gros électricité et gaz évoluent dans un couloir étroit, autour de 35 à 50 €/MWh pour l'électricité. C'est la dernière grande fenêtre de prix bas avant la décennie de volatilité qui suit.",
-        tip: "Période calme : rétrospectivement, le meilleur moment pour sécuriser un prix bas sur plusieurs années — une fenêtre de ce type ne s'est plus représentée depuis."
+        tip: "Période calme : rétrospectivement, le meilleur moment pour sécuriser un prix bas sur plusieurs années, une fenêtre de ce type ne s'est plus représentée depuis."
       },
       en: {
         title: 'A period of relative stability',
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function () {
         geo: 'Abundant global supply (US shale gas, extra LNG capacity, oil oversupply) keeps wholesale prices low and stable for almost the entire 2015-2019 decade.',
         reg: 'Carbon taxation (ETS) keeps rising gradually, but its effect on prices stays masked by the abundance of global fossil fuel supply.',
         eco: 'Wholesale electricity and gas prices trade in a narrow band, roughly €35-50/MWh for electricity. This was the last major low-price window before the decade of volatility that followed.',
-        tip: 'A calm period: in hindsight, the best time to lock in a low price for several years — a window like this hasn\'t reappeared since.'
+        tip: 'A calm period: in hindsight, the best time to lock in a low price for several years, a window like this hasn\'t reappeared since.'
       }
     },
     m2020: {
@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   /* Zone d'alerte large : plateau de prix élevé 2022-2026, argument de conversion central */
   var ALERT_ZONE = { startYear: 2022, endYear: 2026 };
-  var ALERT_ZONE_LABEL = { fr: 'ZONE À RISQUE — CONTRATS SURPAYÉS', en: 'RISK ZONE — OVERPRICED CONTRACTS' };
+  var ALERT_ZONE_LABEL = { fr: 'ZONE À RISQUE : CONTRATS SURPAYÉS', en: 'RISK ZONE: OVERPRICED CONTRACTS' };
 
   var labels = DATA.map(function (d) { return String(d.year); });
   var activeSeries = 'global';
@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* =====================================================
-     3) PLUGINS CANVAS — BANDES DE CRISE + ZONE D'ALERTE
+     3) PLUGINS CANVAS - BANDES DE CRISE + ZONE D'ALERTE
      ===================================================== */
 
   var crisisBandsPlugin = {
@@ -457,7 +457,7 @@ document.addEventListener('DOMContentLoaded', function () {
             label: function (context) {
               var index = context.dataIndex;
               var point = DATA[index];
-              var lines = [context.parsed.y + ' €/MWh — ' + SERIES_LABELS[chartLang][activeSeries]];
+              var lines = [context.parsed.y + ' €/MWh : ' + SERIES_LABELS[chartLang][activeSeries]];
               lines.push(TENSION_LABELS[chartLang][point.tension]);
               if (point.milestoneId) {
                 var m = ms(point.milestoneId);
@@ -572,7 +572,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* =====================================================
-     9) ÉTAT ACTIF — MILESTONE / SÉRIE
+     9) ETAT ACTIF - MILESTONE / SERIE
      ===================================================== */
 
   function setActiveMilestone(id) {
@@ -599,7 +599,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   /* =====================================================
-     10) CTA DE CONVERSION — "Mon contrat a été signé
+     10) CTA DE CONVERSION - "Mon contrat a été signé
      pendant cette hausse ?"
      ===================================================== */
 

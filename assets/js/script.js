@@ -1,6 +1,6 @@
 /* =====================================================
-   ADVICE ENERGY — LANDING PAGE
-   Vanilla JS — aucune dépendance externe
+   ADVICE ENERGY - LANDING PAGE
+   Vanilla JS, aucune dependance externe
    ===================================================== */
 
 /* =====================================================
@@ -16,7 +16,7 @@ var TRANSLATIONS = {
     'nav.accueil': 'Accueil', 'nav.solutions': 'Nos solutions', 'nav.comparateur': 'Comparateur',
     'nav.marche': "Marché de l'énergie", 'nav.apropos': 'À propos', 'nav.contact': 'Contact',
     'header.cta': 'Obtenir un devis gratuit',
-    'hero.eyebrow': 'Courtier en énergie B2B — depuis 2014',
+    'hero.eyebrow': 'Courtier en énergie B2B, depuis 2014',
     'hero.lede': 'Votre courtier en énergie dédié aux entreprises.',
     'hero.ctaPrimary': 'Comparer mes offres', 'hero.ctaSecondary': 'Être rappelé gratuitement',
     'trust.since': 'Depuis 2014', 'trust.audit': 'Audit gratuit', 'trust.noCommitment': 'Sans engagement',
@@ -76,8 +76,8 @@ var TRANSLATIONS = {
     'chart.legendStable': 'Stable', 'chart.legendRising': 'Tension à la hausse', 'chart.legendCrisis': 'Crise / pic historique',
     'chart.legendHint': 'Cliquez sur un point marquant',
     'chart.colGeo': 'Facteurs géopolitiques', 'chart.colReg': 'Facteurs réglementaires et taxes', 'chart.colEco': 'Facteurs économiques (offre / demande)',
-    'chart.disclaimer': 'Prix de gros moyens annuels, en €/MWh, hors taxes et hors acheminement (électricité : marché spot EPEX France ; gaz : PEG/TTF). Sources : RTE, EPEX Spot, SDES — Ministère de la Transition écologique, Opéra Énergie. Données 2016-2024 officielles ; 2007-2015 estimées à partir des fourchettes publiées ; 2025-2026 provisoires (année en cours).',
-    'news.latestTitle': 'Les dernières actualités', 'news.readMore': "Lire l'article",
+    'chart.disclaimer': 'Prix de gros moyens annuels, en €/MWh, hors taxes et hors acheminement (électricité : marché spot EPEX France ; gaz : PEG/TTF). Sources : RTE, EPEX Spot, SDES, Ministère de la Transition écologique, Opéra Énergie. Données 2016-2024 officielles ; 2007-2015 estimées à partir des fourchettes publiées ; 2025-2026 provisoires (année en cours).',
+    'news.latestTitle': 'Les dernières actualités',
     'news.card1.tag': 'Prix', 'news.card1.title': "Hausse des prix de l'électricité : ce qu'il faut savoir",
     'news.card1.text': "Les tarifs évoluent régulièrement sous l'effet du marché de gros. Comment anticiper ces variations pour votre entreprise.",
     'news.card2.tag': 'Fiscalité', 'news.card2.title': "Taxes et contributions sur l'énergie : le point complet",
@@ -125,18 +125,19 @@ var TRANSLATIONS = {
     'contact.note': "En envoyant ce formulaire, votre client mail s'ouvrira avec votre demande pré-remplie, prête à envoyer.",
     'contact.errorRequired': 'Merci de renseigner au moins votre nom et votre e-mail.',
     'contact.submit': 'Envoyer ma demande',
-    'contact.mailSubjectPrefix': 'Demande de contact — ', 'contact.mailName': 'Nom', 'contact.mailCompany': 'Entreprise',
+    'contact.mailSubjectPrefix': 'Demande de contact : ', 'contact.mailName': 'Nom', 'contact.mailCompany': 'Entreprise',
     'contact.mailEmail': 'E-mail', 'contact.mailPhone': 'Téléphone', 'contact.mailMessageLabel': 'Message :',
     'footer.tagline': 'Courtier en énergie pour professionnels depuis 2014. Comparaison neutre, accompagnement complet.',
     'footer.navHeading': 'Navigation', 'footer.legalHeading': 'Légal',
     'footer.legal1': 'Mentions légales', 'footer.legal2': 'CGU', 'footer.legal3': 'Politique de confidentialité',
-    'footer.contactFormLink': 'Formulaire de contact', 'footer.rights': 'Tous droits réservés.'
+    'footer.contactFormLink': 'Formulaire de contact', 'footer.rights': 'Tous droits réservés.',
+    'footer.manageCookies': 'Gérer les cookies'
   },
   en: {
     'nav.accueil': 'Home', 'nav.solutions': 'Our solutions', 'nav.comparateur': 'How it works',
     'nav.marche': 'Energy market', 'nav.apropos': 'About', 'nav.contact': 'Contact',
     'header.cta': 'Get a free quote',
-    'hero.eyebrow': 'B2B energy broker — since 2014',
+    'hero.eyebrow': 'B2B energy broker, since 2014',
     'hero.lede': 'Your dedicated energy broker for businesses.',
     'hero.ctaPrimary': 'Compare my offers', 'hero.ctaSecondary': 'Request a free callback',
     'trust.since': 'Since 2014', 'trust.audit': 'Free audit', 'trust.noCommitment': 'No commitment',
@@ -187,7 +188,7 @@ var TRANSLATIONS = {
     'testimonials.role1': 'Administrative Director, Atelier Lumen',
     'testimonials.quote2': 'Our dedicated advisor really understood our production constraints. The comparison was clear and the negotiation saved us a significant amount.',
     'testimonials.role2': 'Manager, Menuiserie Roussel & Fils',
-    'testimonials.quote3': 'Simple, transparent process. Advice Energy handled all the paperwork — we just had to approve the chosen offer.',
+    'testimonials.quote3': 'Simple, transparent process. Advice Energy handled all the paperwork, we just had to approve the chosen offer.',
     'testimonials.role3': 'Purchasing Manager, Groupe Norea',
     'news.eyebrow': 'Energy market', 'news.title': 'Understanding price trends',
     'news.lede': "From the market's opening in 2007 to the 2022 energy crisis: explore two decades of price swings and their causes.",
@@ -196,8 +197,8 @@ var TRANSLATIONS = {
     'chart.legendStable': 'Stable', 'chart.legendRising': 'Rising tension', 'chart.legendCrisis': 'Crisis / historic peak',
     'chart.legendHint': 'Click a highlighted point',
     'chart.colGeo': 'Geopolitical factors', 'chart.colReg': 'Regulatory & tax factors', 'chart.colEco': 'Economic factors (supply / demand)',
-    'chart.disclaimer': 'Average annual wholesale prices, in €/MWh, excluding taxes and grid fees (electricity: EPEX France spot market; gas: PEG/TTF). Sources: RTE, EPEX Spot, SDES — French Ministry for Ecological Transition, Opéra Énergie. 2016-2024 figures are official; 2007-2015 are estimated from published ranges; 2025-2026 are provisional (year in progress).',
-    'news.latestTitle': 'Latest news', 'news.readMore': 'Read the article',
+    'chart.disclaimer': 'Average annual wholesale prices, in €/MWh, excluding taxes and grid fees (electricity: EPEX France spot market; gas: PEG/TTF). Sources: RTE, EPEX Spot, SDES, French Ministry for Ecological Transition, Opéra Énergie. 2016-2024 figures are official; 2007-2015 are estimated from published ranges; 2025-2026 are provisional (year in progress).',
+    'news.latestTitle': 'Latest news',
     'news.card1.tag': 'Prices', 'news.card1.title': 'Rising electricity prices: what you need to know',
     'news.card1.text': 'Rates change regularly with the wholesale market. How to anticipate these swings for your business.',
     'news.card2.tag': 'Taxation', 'news.card2.title': 'Energy taxes and contributions: the full picture',
@@ -245,24 +246,28 @@ var TRANSLATIONS = {
     'contact.note': "By sending this form, your mail client will open with your request pre-filled, ready to send.",
     'contact.errorRequired': 'Please fill in at least your name and email address.',
     'contact.submit': 'Send my request',
-    'contact.mailSubjectPrefix': 'Contact request — ', 'contact.mailName': 'Name', 'contact.mailCompany': 'Company',
+    'contact.mailSubjectPrefix': 'Contact request: ', 'contact.mailName': 'Name', 'contact.mailCompany': 'Company',
     'contact.mailEmail': 'Email', 'contact.mailPhone': 'Phone', 'contact.mailMessageLabel': 'Message:',
     'footer.tagline': 'B2B energy broker since 2014. Neutral comparison, full support.',
     'footer.navHeading': 'Navigation', 'footer.legalHeading': 'Legal',
     'footer.legal1': 'Legal notice', 'footer.legal2': 'Terms of use', 'footer.legal3': 'Privacy policy',
-    'footer.contactFormLink': 'Contact form', 'footer.rights': 'All rights reserved.'
+    'footer.contactFormLink': 'Contact form', 'footer.rights': 'All rights reserved.',
+    'footer.manageCookies': 'Manage cookies'
   }
 };
 
 /* =====================================================
-   HERO — CONTENU SOURCE BILINGUE DU TITRE (H1)
+   HERO - CONTENU SOURCE BILINGUE DU TITRE (H1)
    Fragments HTML minimalistes : <b> marque les mots à
    styliser en rouge/italique, <br> force les retours à
    la ligne. Reconstruits en spans .hw animés par JS.
+   Un espace est toujours présent avant et après chaque
+   <br> pour éviter que les mots se collent quand le
+   retour à la ligne est masqué en CSS sur mobile.
    ===================================================== */
 var HERO_HEADLINE_RAW = {
-  fr: 'Advice Energy conseille les<br>professionnels à <b>comparer</b>,<br><b>négocier</b><br>et <b>optimiser</b> les contrats de<br>gaz<br>et d\'électricité depuis 2014.',
-  en: 'Advice Energy helps businesses<br><b>compare</b>, <b>negotiate</b><br>and <b>optimize</b> their gas<br>and electricity contracts<br>since 2014.'
+  fr: 'Advice Energy conseille les <br> professionnels à <b>comparer</b>, <br> <b>négocier</b> <br> et <b>optimiser</b> les contrats de <br> gaz <br> et d\'électricité depuis 2014.',
+  en: 'Advice Energy helps businesses <br> <b>compare</b>, <b>negotiate</b> <br> and <b>optimize</b> their gas <br> and electricity contracts <br> since 2014.'
 };
 
 function renderHeroHeadline(lang) {
@@ -393,7 +398,7 @@ document.addEventListener('DOMContentLoaded', function () {
   })();
 
   /* =====================================================
-     1) HEADER STICKY — réduction au scroll
+     1) HEADER STICKY - reduction au scroll
      ===================================================== */
   (function headerScroll() {
     var header = document.getElementById('siteHeader');
@@ -509,7 +514,7 @@ document.addEventListener('DOMContentLoaded', function () {
   })();
 
   /* =====================================================
-     4bis) SCHÉMA IMPACT — TOGGLE AVANT / APRÈS
+     4bis) SCHEMA IMPACT - TOGGLE AVANT / APRES
      ===================================================== */
   (function impactToggle() {
     var toggleBtn = document.getElementById('impactToggle');
@@ -528,7 +533,7 @@ document.addEventListener('DOMContentLoaded', function () {
   })();
 
   /* =====================================================
-     4ter) FORMULAIRE DE CONTACT — ENVOI PAR MAIL
+     4ter) FORMULAIRE DE CONTACT - ENVOI PAR MAIL
      ===================================================== */
   (function contactForm() {
     var form = document.getElementById('contactForm');
@@ -574,7 +579,120 @@ document.addEventListener('DOMContentLoaded', function () {
   })();
 
   /* =====================================================
-     5) FAQ — ACCORDÉON
+     4quater) BANDEAU CONSENTEMENT COOKIES
+     ===================================================== */
+  (function cookieConsent() {
+    var STORAGE_KEY = 'advice-energy-cookie-consent';
+    var banner = document.getElementById('cookieBanner');
+    var simpleView = document.getElementById('cookieSimple');
+    var prefsView = document.getElementById('cookiePrefs');
+    var manageBtn = document.getElementById('cookieManageBtn');
+    var backBtn = document.getElementById('cookieBackBtn');
+    var refuseBtn = document.getElementById('cookieRefuseBtn');
+    var acceptBtn = document.getElementById('cookieAcceptBtn');
+    var savePrefsBtn = document.getElementById('cookieSavePrefsBtn');
+    var analyticsToggle = document.getElementById('cookieAnalyticsToggle');
+    var footerManageBtn = document.getElementById('footerManageCookiesBtn');
+    if (!banner) return;
+
+    function getConsent() {
+      try {
+        var raw = window.localStorage.getItem(STORAGE_KEY);
+        return raw ? JSON.parse(raw) : null;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function saveConsent(analytics) {
+      var consent = { essential: true, analytics: !!analytics, date: new Date().toISOString() };
+      try { window.localStorage.setItem(STORAGE_KEY, JSON.stringify(consent)); } catch (e) { /* stockage indisponible */ }
+      // Point d'accroche pour de futurs scripts de mesure d'audience :
+      // n'activer un éventuel outil analytics qu'à cette condition.
+      window.adviceEnergyConsent = consent;
+      return consent;
+    }
+
+    function showBanner() {
+      banner.hidden = false;
+      window.requestAnimationFrame(function () {
+        banner.classList.add('is-visible');
+      });
+    }
+
+    function hideBanner() {
+      banner.classList.remove('is-visible');
+      window.setTimeout(function () { banner.hidden = true; }, 320);
+    }
+
+    function showPrefs() {
+      simpleView.hidden = true;
+      prefsView.hidden = false;
+    }
+
+    function showSimple() {
+      prefsView.hidden = true;
+      simpleView.hidden = false;
+    }
+
+    function setToggle(el, checked) {
+      el.setAttribute('aria-checked', checked ? 'true' : 'false');
+    }
+
+    // Décision déjà connue : appliquer sans réafficher le bandeau.
+    var existingConsent = getConsent();
+    if (existingConsent) {
+      window.adviceEnergyConsent = existingConsent;
+    } else {
+      window.setTimeout(showBanner, 600);
+    }
+
+    if (manageBtn) manageBtn.addEventListener('click', showPrefs);
+    if (backBtn) backBtn.addEventListener('click', showSimple);
+
+    if (acceptBtn) {
+      acceptBtn.addEventListener('click', function () {
+        saveConsent(true);
+        if (analyticsToggle) setToggle(analyticsToggle, true);
+        hideBanner();
+      });
+    }
+
+    if (refuseBtn) {
+      refuseBtn.addEventListener('click', function () {
+        saveConsent(false);
+        if (analyticsToggle) setToggle(analyticsToggle, false);
+        hideBanner();
+      });
+    }
+
+    if (analyticsToggle) {
+      analyticsToggle.addEventListener('click', function () {
+        var isChecked = analyticsToggle.getAttribute('aria-checked') === 'true';
+        setToggle(analyticsToggle, !isChecked);
+      });
+    }
+
+    if (savePrefsBtn) {
+      savePrefsBtn.addEventListener('click', function () {
+        var analyticsOn = analyticsToggle && analyticsToggle.getAttribute('aria-checked') === 'true';
+        saveConsent(analyticsOn);
+        hideBanner();
+      });
+    }
+
+    if (footerManageBtn) {
+      footerManageBtn.addEventListener('click', function () {
+        var consent = getConsent();
+        if (analyticsToggle) setToggle(analyticsToggle, !!(consent && consent.analytics));
+        showPrefs();
+        showBanner();
+      });
+    }
+  })();
+
+  /* =====================================================
+     5) FAQ - ACCORDEON
      ===================================================== */
   (function faqAccordion() {
     var items = document.querySelectorAll('.faq-item');
@@ -660,7 +778,7 @@ document.addEventListener('DOMContentLoaded', function () {
   })();
 
   /* =====================================================
-     7) ANNÉE COURANTE — FOOTER
+     7) ANNEE COURANTE - FOOTER
      ===================================================== */
   (function currentYear() {
     var el = document.getElementById('currentYear');
